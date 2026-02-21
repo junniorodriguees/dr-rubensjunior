@@ -8,17 +8,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
-
 *{margin:0;padding:0;box-sizing:border-box;}
 
 body{
 font-family:'Montserrat', sans-serif;
 background:#FFFFFF;
 color:#000000;
-line-height:1.6;
+line-height:1.7;
 }
-
-/* ===== HEADER ===== */
 
 header{
 background:#1c1c1c;
@@ -64,8 +61,6 @@ transition:0.3s;
 background:#1EBE5D;
 }
 
-/* ===== HERO ===== */
-
 .hero{
 background:linear-gradient(to bottom, #1a1a1a 0%, #7a7a7a 100%);
 padding:120px 20px 100px 20px;
@@ -98,8 +93,6 @@ transition:0.3s;
 background:#1EBE5D;
 }
 
-/* ===== FOTO SECTION ===== */
-
 .photo-section{
 background:#FFFFFF;
 padding:80px 0;
@@ -123,8 +116,6 @@ border-radius:6px;
 object-fit:cover;
 }
 
-/* ===== CONTENT SECTIONS ===== */
-
 .section{
 padding:90px 8%;
 text-align:center;
@@ -135,9 +126,8 @@ background:#F7F7F7;
 }
 
 .section h2{
-font-family:'Montserrat', sans-serif;
 font-size:36px;
-margin-bottom:50px;
+margin-bottom:40px;
 font-weight:500;
 }
 
@@ -148,41 +138,70 @@ font-weight:600;
 letter-spacing:1px;
 }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:30px;
+.big-number{
+color:#7a7a7a;
+font-weight:700;
+font-size:20px;
 }
 
-.box{
-background:#FFFFFF;
-padding:30px;
-border:1px solid #EEEEEE;
-border-radius:6px;
-text-align:left;
+.content-text{
+max-width:900px;
+margin:0 auto 40px auto;
+text-align:center;
 }
 
-.box h3{
-margin-bottom:15px;
+.list{
+margin-top:20px;
+line-height:2;
+}
+
+.feature-title{
+font-family:'Playfair Display', serif;
+color:#7a7a7a;
 font-weight:600;
+font-size:24px;
+margin-top:50px;
+margin-bottom:15px;
 }
 
-/* ===== TESTIMONIALS ===== */
+/* GOOGLE STYLE REVIEWS */
 
-.testimonial{
+.review{
 background:#FFFFFF;
 padding:25px;
-border:1px solid #EEEEEE;
-border-radius:6px;
+border:1px solid #E5E5E5;
+border-radius:10px;
 text-align:left;
+position:relative;
 }
 
-.testimonial strong{
-display:block;
-margin-top:15px;
+.review-header{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:10px;
 }
 
-/* ===== FOOTER ===== */
+.review-header img{
+width:50px;
+height:50px;
+border-radius:50%;
+object-fit:cover;
+}
+
+.stars{
+color:#FBBC05;
+font-size:18px;
+margin-bottom:5px;
+}
+
+.google-badge{
+position:absolute;
+top:20px;
+right:20px;
+font-size:12px;
+color:#777;
+}
 
 footer{
 background:#1c1c1c;
@@ -199,18 +218,13 @@ color:#FFFFFF;
 .hero h1{
 font-size:42px;
 }
-.photo-box img{
-max-width:100%;
 }
-}
-
 </style>
 </head>
 
 <body>
 
 <header>
-
 <div class="logo">
 <div class="initial">RJ</div>
 <div class="name">Dr. Rubens Júnior</div>
@@ -219,79 +233,122 @@ max-width:100%;
 <a href="https://wa.me/5562996170936" class="top-whatsapp">
 Atendimento Gratuito
 </a>
-
 </header>
 
 <section class="hero">
-
 <h1>Atendimento<br>Imediato</h1>
-
 <a href="https://wa.me/5562996170936" class="btn-main">
 Fale AGORA pelo WhatsApp
 </a>
-
 </section>
 
 <section class="photo-section">
 <div class="photo-box">
-<img src="drrubens.png" alt="Dr. Rubens Júnior">
+<img src="FOTO_DO_ADVOGADO_AQUI.jpg" alt="Dr. Rubens Júnior">
 </div>
 </section>
 
 <section class="section">
+
 <h2>
 Advogado Especializado em 
 <span class="highlight">DIVÓRCIO</span> e 
 <span class="highlight">PENSÃO ALIMENTÍCIA</span>
 </h2>
 
-<div class="grid">
+<div class="content-text">
+<p>
+Rubens Júnior é advogado de divórcio pós-graduado em Direito de Família e especialista em processos de divórcio e pensão alimentícia, possui mais de 11 anos de experiência no Direito de Família. Seu vasto acervo jurídico garante resoluções eficazes para seus clientes em casos de separação, divórcio e pensão alimentícia.
+</p>
 
-<div class="box">
-<h3>Divórcio Consensual</h3>
-<p>Procedimento rápido e seguro para formalizar o término do casamento de forma amigável.</p>
+<p>
+Oferecemos soluções assertivas na resolução dos casos. Entre em contato agora e experimente uma abordagem humanizada e eficiente.
+</p>
+
+<p style="margin-top:30px;font-weight:600;">
+Já ajudamos mais de <span class="big-number">1.000</span> clientes com:
+</p>
+
+<div class="list">
+✓ Divórcio litigioso e consensual<br>
+✓ Partilha de bens<br>
+✓ Guarda de filhos<br>
+✓ Pensão alimentícia<br>
+✓ Dissolução de união estável<br>
+✓ E mais...
 </div>
 
-<div class="box">
-<h3>Divórcio Litigioso</h3>
-<p>Atuação estratégica quando não há acordo entre as partes.</p>
-</div>
+<p style="margin-top:30px;">
+Agende uma consulta gratuita com nosso advogado especialista em Direito de Família e entenda o nosso método de sucesso que nos faz ter nota alta de satisfação.
+</p>
 
-<div class="box">
-<h3>Pensão Alimentícia</h3>
-<p>Fixação, revisão ou exoneração de pensão com segurança jurídica.</p>
-</div>
+<div class="feature-title">Nossos Diferenciais</div>
+<p>Experiência preparada para a administração da justiça e excelência na defesa dos interesses das partes em juízo.</p>
+
+<div class="feature-title">On-line</div>
+<p>Foco em eficiência e precisão, somos parte instrumental do sucesso dos nossos clientes, por meio de aconselhamento jurídico.</p>
+
+<div class="feature-title">Parcelamento</div>
+<p>Nossos honorários podem ser parcelados em até 12x sem juros, através de boleto bancário ou cartão de crédito.</p>
+
+<div class="feature-title">Estratégia</div>
+<p>Utilizamos estratégias vencedoras comprovadas pelos nossos atendimentos e resoluções.</p>
+
+<div class="feature-title">Acervo</div>
+<p>Possuímos experiência e grande acervo jurídico de alta eficácia na resolução dos casos.</p>
+
+<div class="feature-title">Pessoalidade</div>
+<p>Atendimento personalizado. Aqui, cada cliente é único. Suas histórias e objetivos são importantes para nós.</p>
 
 </div>
-
 </section>
 
 <section class="section">
-<h2>Depoimentos</h2>
+<h2>O que dizem nossos clientes</h2>
 
-<div class="grid">
-
-<div class="testimonial">
-<p>"Excelente advogado! Conduziu meu divórcio com profissionalismo."</p>
-<strong>— Letícia Viana Neves</strong>
+<div class="review">
+<div class="google-badge">Avaliação no Google</div>
+<div class="review-header">
+<img src="cliente1.jpg">
+<div>
+<strong>Letícia Viana</strong>
+<div class="stars">★★★★★</div>
+</div>
+</div>
+<p>Excelente profissional. Conduziu meu divórcio com total segurança e clareza.</p>
 </div>
 
-<div class="testimonial">
-<p>"Dr. Rubens Júnior foi extremamente atencioso no meu caso de pensão."</p>
-<strong>— Mateus Yoshitani</strong>
+<br>
+
+<div class="review">
+<div class="google-badge">Avaliação no Google</div>
+<div class="review-header">
+<img src="cliente2.jpg">
+<div>
+<strong>Mateus Yoshitani</strong>
+<div class="stars">★★★★★</div>
+</div>
+</div>
+<p>Atendimento rápido e muito humano. Resolvi meu caso de pensão com tranquilidade.</p>
 </div>
 
-<div class="testimonial">
-<p>"Atendimento impecável. Recomendo fortemente o advogado."</p>
-<strong>— Jessica Araujo</strong>
-</div>
+<br>
 
+<div class="review">
+<div class="google-badge">Avaliação no Google</div>
+<div class="review-header">
+<img src="cliente3.jpg">
+<div>
+<strong>Jessica Araujo</strong>
+<div class="stars">★★★★★</div>
+</div>
+</div>
+<p>Advogado extremamente competente. Recomendo para qualquer questão familiar.</p>
 </div>
 
 </section>
 
 <footer>
-
 <p><strong>Dr. Rubens Júnior</strong></p>
 <p>Rubens Vieira da Silva Júnior</p>
 <p>OAB/GO 59.734</p>
@@ -301,7 +358,6 @@ Advogado Especializado em
 <p style="margin-top:20px;font-size:13px;">
 © 2026 - Todos os direitos reservados.
 </p>
-
 </footer>
 
 </body>
