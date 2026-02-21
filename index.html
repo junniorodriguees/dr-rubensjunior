@@ -14,6 +14,179 @@
 body{
 font-family:'Montserrat', sans-serif;
 background:#FFFFFF;
+color:#000000;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+background:#FFFFFF;
+padding:20px 0;
+border-bottom:1px solid #EEEEEE;
+}
+
+.header-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-family:'Playfair Display', serif;
+font-size:28px;
+font-weight:600;
+letter-spacing:2px;
+color:#000000;
+}
+
+.logo span{
+display:block;
+font-size:14px;
+font-weight:400;
+color:#222222;
+letter-spacing:1px;
+}
+
+.btn-whatsapp{
+background:#25D366;
+color:#FFFFFF;
+padding:14px 28px;
+text-decoration:none;
+font-weight:600;
+border-radius:3px;
+transition:0.3s;
+display:inline-block;
+}
+
+.btn-whatsapp:hover{
+background:#1EBE5D;
+}
+
+.hero{
+background:#F7F7F7;
+padding:100px 0;
+}
+
+.hero-content{
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero-text h1{
+font-family:'Playfair Display', serif;
+font-size:44px;
+margin-bottom:20px;
+font-weight:600;
+color:#000000;
+}
+
+.hero-text p{
+font-size:18px;
+color:#222222;
+margin-bottom:30px;
+}
+
+.hero img{
+width:380px;
+border-radius:5px;
+}
+
+.section{
+padding:90px 0;
+text-align:center;
+background:#FFFFFF;
+}
+
+.section:nth-child(even){
+background:#F7F7F7;
+}
+
+.section h2{
+font-family:'Playfair Display', serif;
+font-size:36px;
+margin-bottom:40px;
+font-weight:600;
+color:#000000;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.box{
+background:#FFFFFF;
+padding:30px;
+border:1px solid #EEEEEE;
+border-radius:5px;
+text-align:left;
+}
+
+.box h3{
+color:#000000;
+margin-bottom:15px;
+font-weight:600;
+}
+
+.testimonial{
+background:#FFFFFF;
+padding:25px;
+border:1px solid #EEEEEE;
+border-radius:5px;
+text-align:left;
+}
+
+.testimonial strong{
+display:block;
+margin-top:15px;
+color:#000000;
+}
+
+footer{
+background:#F7F7F7;
+padding:60px 0;
+text-align:center;
+color:#333333;
+border-top:1px solid #EEEEEE;
+}
+
+footer strong{
+color:#000000;
+}
+
+.cta-center{
+margin-top:40px;
+}
+
+@media(max-width:900px){
+.hero-content{
+flex-direction:column;
+text-align:center;
+}
+.hero img{
+margin-top:40px;
+}
+}
+
+</style>
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Montserrat', sans-serif;
+background:#FFFFFF;
 color:#2B2B2B;
 line-height:1.6;
 }
