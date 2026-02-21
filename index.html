@@ -30,19 +30,8 @@ align-items:center;
 .logo{
 font-family:'Playfair Display', serif;
 color:#FFFFFF;
-}
-
-.logo .initial{
-font-size:34px;
-letter-spacing:4px;
-font-weight:600;
-}
-
-.logo .name{
-font-size:14px;
+font-size:20px;
 letter-spacing:3px;
-margin-top:4px;
-color:#EAEAEA;
 }
 
 .top-whatsapp{
@@ -262,6 +251,27 @@ transition:0.3s;
 background:#1EBE5D;
 }
 
+/* BOTÃO WHATSAPP FLUTUANTE */
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#FFFFFF;
+padding:16px 24px;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+box-shadow:0 10px 25px rgba(0,0,0,0.35);
+z-index:999;
+transition:0.3s;
+}
+
+.whatsapp-float:hover{
+background:#1EBE5D;
+}
+
 footer{
 background:#1c1c1c;
 color:#CCCCCC;
@@ -282,10 +292,7 @@ color:#FFFFFF;
 <body>
 
 <header>
-<div class="logo">
-<div class="initial">RJ</div>
-<div class="name">Dr. Rubens Júnior</div>
-</div>
+<div class="logo">Dr. Rubens Júnior</div>
 <a href="https://wa.me/5562996170936" class="top-whatsapp">
 Atendimento Gratuito
 </a>
@@ -336,8 +343,29 @@ Já ajudou mais de <span class="big-number">1.000</span> clientes com:
 </div>
 
 <p style="margin-top:30px;">
-Agende uma consulta gratuita e conheça o método estratégico que garante alto índice de satisfação aos clientes.
+Agende uma consulta gratuita com nosso advogado especialista em direito de família e entenda o nosso método de sucesso que nos faz ter nota alta de satisfação.
 </p>
+
+<h2 style="margin-top:80px;">Nossos Diferenciais</h2>
+
+<div class="feature-title">Experiência</div>
+<p>Preparada para a administração da justiça e excelência na defesa dos interesses das partes em juízo.</p>
+
+<div class="feature-title">On-line</div>
+<p>Foco em eficiência e precisão, somos parte instrumental do sucesso dos nossos clientes, por meio de aconselhamento jurídico.</p>
+
+<div class="feature-title">Parcelamento</div>
+<p>Nossos honorários podem ser parcelados em até 12x sem juros, através de boleto bancário ou cartão de crédito.</p>
+
+<div class="feature-title">Estratégia</div>
+<p>Utilizamos estratégias vencedoras comprovadas pelos nossos atendimentos e resoluções.</p>
+
+<div class="feature-title">Acervo</div>
+<p>Possuímos experiência e grande acervo jurídico de alta eficácia na resolução dos casos.</p>
+
+<div class="feature-title">Pessoalidade</div>
+<p><strong>Atendimento personalizado</strong></p>
+<p>Aqui, cada cliente é único. Suas histórias e objetivos são importantes para nós.</p>
 
 </div>
 </section>
@@ -410,6 +438,10 @@ Fale com nosso advogado via WhatsApp
 </div>
 
 </section>
+
+<a href="https://wa.me/5562996170936" class="whatsapp-float">
+Fale AGORA com o advogado
+</a>
 
 <footer>
 <p><strong>Dr. Rubens Júnior</strong></p>
